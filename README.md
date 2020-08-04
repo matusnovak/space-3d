@@ -31,7 +31,7 @@ mkdir build
 cd build
 cmake \
   -G "Visual Studio 16 2019" \
-  -DCMAKE_TOOLCHAIN_FILE=/usr/local/share/vcpkg/scripts/buildsystems/vcpkg.cmake \
+  -DCMAKE_TOOLCHAIN_FILE=C:/tools/vcpkg/scripts/buildsystems/vcpkg.cmake \
   ..
 
 # Build it
